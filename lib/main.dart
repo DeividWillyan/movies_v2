@@ -19,7 +19,7 @@ class _MainAppState extends State<MainApp> {
       Uri.https('api.themoviedb.org', '/4/list/1'),
       headers: {
         'authorization':
-            'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJkODVhZjhlZDA0NTZhNWQyNzVmZmQxODI4YmJkYzY4NSIsInN1YiI6IjU5ODA1NjQ0YzNhMzY4MTA1NTAwZDRiNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.MJcPKVkaqXdI_Oblbk-VjBM8pWtTmKltfxZqyuLIU_U',
+            'Bearer ',
         'content-type': 'application/json;charset=utf-8'
       },
     ).then(
